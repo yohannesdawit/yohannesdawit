@@ -1,0 +1,17 @@
+{
+  "name": "grant-report-tool",
+  "version": "0.1.0",
+  "description": "Data assembly, template rendering, and AI-narrative boundary for grant donor reports.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
